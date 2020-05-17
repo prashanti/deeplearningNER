@@ -1,37 +1,8 @@
-## Welcome to GitHub Pages
+## Ontology-powered Named Entity Recognition and Robust Semantic Similarity Metrics
 
-You can use the [editor on GitHub](https://github.com/prashanti/deeplearningNER/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+The goal of this project is to develop novel natural langauge processing methods for recognizing ontology concepts from biological literature. Ontologies are computationally amenable forms of data representation that have made large scale biological analyses possible. Translating knowledge from scientific publications to an ontology-powered format still relies largely on manual curation of literature - a process that is unscalable and tedious. Advances pioneered by this project will enable knowledge discovery from scientific literature and power computational analyses to answer complex biological questions.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/prashanti/deeplearningNER/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
 ### Support or Contact
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+Email: p_manda@uncg.edu
