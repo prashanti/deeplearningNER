@@ -1,8 +1,24 @@
-## Project Description
+## NEural Models for Ontological annotation (NEMO)
 
-The goal of this project is to develop novel natural langauge processing methods for recognizing ontology concepts from biological literature. Ontologies are computationally amenable forms of data representation that have made large scale biological analyses possible. Translating knowledge from scientific publications to an ontology-powered format still relies largely on manual curation of literature - a process that is unscalable and tedious. Advances pioneered by this project will enable knowledge discovery from scientific literature and power computational analyses to answer complex biological questions.
 
+In order to replicate or re-run the experiments as described in [this](https://https://github.com/prashanti/deeplearningNER) paper, clone this repository.
+
+#### To perform model training with available train and test dataset
+
+1. Install the required python packages by running the command:
+
+  ```
+  pip install -r requirements.txt
+  ```
+2. To train the model with GloVe embeddings, you need to download the embeddings before passing the weights to the model. We used Glove 300 dimensional embeddings trained on 840B tokens from cased Common Crawl.
+  + Run `glove_txt_to_bin.ipynb` notebook from `/src/preprocessing` directory.
+  + To train with a different glove embedding, replace `FILENAME` variable with one of the filenames from [huggingface](https://huggingface.co/stanfordnlp/glove/tree/main). For example, change `FILENAME` to `glove.42B.300d.zip`.
+3. Run `Bi-GRU.ipynb` from `/src/model_training` directory.
+
+**Note:** These experiments are carried out on single **Tesla V100-SXM2-16GB** GPU and **8 core** CPU with **51.01 GB RAM**.
 
 ### Support or Contact
 
-Email: p_manda@uncg.edu
+Email: &emsp;p_devkota@uncg.edu
+&emsp;&emsp;&emsp;&emsp;sdmohant@uncg.edu
+&emsp;&emsp;&emsp;&emsp;p_manda@uncg.edu
